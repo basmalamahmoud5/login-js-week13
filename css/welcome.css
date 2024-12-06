@@ -1,0 +1,56 @@
+.card-login{
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1); ;
+}
+
+.w-90{
+    width: 90%;
+}
+
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+
+ h1{
+    color: #17a2b8;
+}
+input::placeholder{
+   color: rgb(184, 184, 184) !important;
+}
+
+body{
+    background-color: #273b3f;
+   
+}
+
+.nav{
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1); 
+    
+}
+.nav a{
+    color: rgba(255, 255, 255, .5);
+    
+
+}
+.nav .Logout:hover{
+    background-color: #ffc107 !important;
+    color: white;
+}
+.nav a:hover{
+    
+    transition: all 0.3s;
+}
+.smart{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.card-home{
+    transform: translateY(100%);
+    width: 65%;
+}

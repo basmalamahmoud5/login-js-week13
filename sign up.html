@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sign-up</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+  <!-- ------=======boot strap=======--------- -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ------=======main styling=======--------- -->
+  <link rel="stylesheet" href="css/sign up.css">
+</head>
+
+<body>
+ 
+
+  <form id="registerForm" class="d-block">
+    <div class="container">
+      <div class="card-login m-auto text-center my-5  w-75 py-5">
+        <div class=" w-90 m-auto">
+          <h1 class="mb-4">Smart Login System</h1>
+          <input type="text" placeholder="Enter your name" class="form-control " id="signName">
+         
+          <input type="text" placeholder="Enter your email" class="form-control mt-3" id="signEmail">
+          <input type="password" placeholder="Enter your Password" class="form-control mt-3 " id="signPassword">
+          <span id="alertRequired" class="text-danger m-3 d-none">All inputs is required</span>
+          <span id="existAlert" class="text-danger m-3 d-none">email already exists</span>
+          <span id="succesAlert" class="text-success m-3 d-none">Success</span>
+        
+          <button class="btn  w-100 my-5 border border-1  BTN " id="signupBTN"> Sign Up</button>
+
+          <p class="text-white mt-3">Do you have an account?<a href="signin.html">sign in</a></p>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </form>
+  
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/sign up.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.card-login{
+    box-shadow:-5px 2px 54px -9px rgba(0, 0, 0, 1); ;
+}
+.sign-up{
+cursor: pointer;
+}
+.sign-up:hover{
+    text-decoration-line: underline;
+}
+.w-90{
+    width: 90%;
+}
+.BTN{
+    border-color: #17a2b8 !important;
+    background-color: transparent;
+    color: #17a2b8 !important;
+    border-radius: 5px !important;
+    
+}
+a{
+    text-decoration-line: none;
+    color: white;
+}
+
+.BTN:hover{
+    background-color:#17a2b8 ;
+    color: white !important;
+    transition: 0.2s;
+}
+ input{
+    border-radius: 5px !important;
+    margin: auto;
+    background-color: transparent !important;
+    color: white !important;
+}
+ h1{
+    color: #17a2b8;
+}
+input::placeholder{
+   color: rgb(184, 184, 184) !important;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: #17a2b8 solid 1px;
+}
+body{
+    background-color: #273b3f;
+   
+}
+

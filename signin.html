@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>sign in</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+ 
+  <!-- ------=======boot strap=======--------- -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- ------=======main styling=======--------- -->
+  <link rel="stylesheet" href="css/sgin in.css">
+</head>
+
+<body>
+<form id="loginForm" class="d-block">
+    <div class="container">
+      <div class="card-login m-auto text-center my-5  w-75 py-5">
+        <div class=" w-90 m-auto">
+          <h1 class="mb-4">Smart Login System</h1>
+          <input type="text" placeholder="Enter your email" class="form-control mb-3  " id="loginEmail">
+          <input type="password" placeholder="Enter your Password" class="form-control mb-4  " id="loginPassword">
+          <span class="p-2 text-danger d-none " id="loginAlert">incorrect Email or Password</span>
+          <span class="p-2 text-success d-none " id="loginSuccessAlert">success you are logged in</span>
+          <button class="btn m-auto w-100 my-3 border border-1  BTN "> Login</button>
+          <div class="d-flex justify-content-center">
+            <p class="text-white">Don’t have an account? </p><a href="sign up.html">sign up</a>
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+  </form>
+
+
+  
+  
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/sign in.js"></script>
+</body>
+
+</html>
